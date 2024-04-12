@@ -1,0 +1,1 @@
+Restricts matchmaking to users in the same Discord servers as you.
