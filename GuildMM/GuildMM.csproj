@@ -4,6 +4,7 @@
     <PropertyGroup>
         <AssemblyName>GuildMM</AssemblyName>
         <Product>GuildMM</Product>
+        <MinVerTagPrefix>v</MinVerTagPrefix>
     </PropertyGroup>
 
     <!-- Project Properties -->
