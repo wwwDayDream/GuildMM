@@ -4,7 +4,6 @@
         Name="ThunderstorePack"
         AfterTargets="PostBuildEvent"
         Condition="$(Configuration) == 'Release' and $(CI) == 'true'"
-        DependsOnTargets="SetModVersion"
     >
         <Exec Command="dotnet tcli build --config-path $(ProjectDir)ts-assets/thunderstore.toml --package-version $(PlainVersion)" />
         <ItemGroup>
